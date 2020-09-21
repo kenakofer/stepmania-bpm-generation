@@ -1,11 +1,11 @@
 # stepmania-bpm-generation 
-A tool to get generate precise stepmania BPMs on less consistent songs by just hitting a key every beat as the song plays. It works well on songs that are basically one tempo, but with small variations.
+A tool to get generate precise stepmania BPMs on less consistent songs by just hitting a key every beat as the song plays. The second script smoothes out the result and creates a `#BPMS` entry with the correct syntax. Because of the smoothing function, it works well on songs that are basically one tempo, but with small variations.
 
-➡️ ⬅️ ⬆️ ⬇️ 
+⬅️ ⬇️ ⬆️ ➡️
 
-The first song I used to test (and my first stepmania track ever): Billy Joel's "Piano Man" on youtube. It slides in tempo almost imperceptibly between 172 BPM and 184 BPM. Compared to manually using a metronome to find BPMs, this script was able to get all the BPMs with only a single pass through the audio.
+The first song I used to test (and my first stepmania track ever): Billy Joel's "Piano Man" on youtube. It slides in tempo almost imperceptibly between 172 BPM and 184 BPM. Faster than manually using a metronome to find BPMs, this script was able to output all the BPMs with only a single listen of the audio.
 
-At this point in time, I've only made a single song, so there may likely be a better strategy for tackling this problem. This has been a good exercise nonetheless.
+At time of writing, I've only made a single song, so there is likely a better strategy for tackling this problem. This has been a good exercise nonetheless.
 
 Prerequisites: Python3 with `python-vlc`
 
